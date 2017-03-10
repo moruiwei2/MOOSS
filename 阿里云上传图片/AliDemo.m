@@ -50,11 +50,11 @@
         
         NSString *str_url = arr_image[i];
         
-        AliyunOSSDemo *ali = [AliyunOSSDemo sharedInstance];
+//        AliyunOSSDemo *ali = [AliyunOSSDemo sharedInstance];
+//        
+//        NSString *str_minURL = [ali getImageURLWithKey:str_url];
         
-        NSString *str_minURL = [ali getImageURLWithKey:str_url];
-        
-        [imageView_icon sd_setImageWithURL:[NSURL URLWithString:str_minURL]];
+        [imageView_icon sd_setImageWithURL:[NSURL URLWithString:str_url]];
         
         NSLog(@"++++%@+++",str_url);
     }
