@@ -56,7 +56,7 @@
         
         [imageView_icon sd_setImageWithURL:[NSURL URLWithString:str_url]];
         
-        NSLog(@"++++%@+++",str_url);
+        
     }
 }
 
