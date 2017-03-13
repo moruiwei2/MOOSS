@@ -46,6 +46,7 @@
         
         CGFloat x = 40 * i;
         UIImageView *imageView_icon = [[UIImageView alloc]initWithFrame:CGRectMake(x, imageV_y, imageV_w, imageV_h)];
+        imageView_icon.backgroundColor = [UIColor redColor];
         [self.view addSubview:imageView_icon];
         
         NSString *str_url = arr_image[i];
